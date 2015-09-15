@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/pessoal/docs/atlanteam/projetos/preservarecicla/controleOleo/GestaoRotas/src/br/com/preservarecicla/gestaorota/layout/Principal.java</file>
+            <file>file:/C:/pessoal/docs/atlanteam/projetos/preservarecicla/controleOleo/GestaoRotas/src/br/com/preservarecicla/gestaorota/layout/GestaoRota.java</file>
+            <file>file:/C:/pessoal/docs/atlanteam/projetos/preservarecicla/controleOleo/GestaoRotas/src/br/com/preservarecicla/gestaorota/layout/CadastroRotas.java</file>
+            <file>file:/C:/pessoal/docs/atlanteam/projetos/preservarecicla/controleOleo/GestaoRotas/src/br/com/preservarecicla/gestaorota/dao/util/BancoUtil.java</file>
+            <file>file:/C:/pessoal/docs/atlanteam/projetos/preservarecicla/controleOleo/GestaoRotas/src/br/com/preservarecicla/gestaorota/relatorio/RelatorioRecibo.java</file>
+            <file>file:/C:/pessoal/docs/atlanteam/projetos/preservarecicla/controleOleo/GestaoRotas/src/br/com/preservarecicla/gestaorota/layout/util/LayoutUtil.java</file>
+            <file>file:/C:/pessoal/docs/atlanteam/projetos/preservarecicla/controleOleo/GestaoRotas/src/br/com/preservarecicla/gestaorota/service/GestaoService.java</file>
+            <file>file:/C:/pessoal/docs/atlanteam/projetos/preservarecicla/controleOleo/GestaoRotas/src/br/com/preservarecicla/gestaorota/layout/util/PreencheTabelas.java</file>
+            <file>file:/C:/pessoal/docs/atlanteam/projetos/preservarecicla/controleOleo/GestaoRotas/src/br/com/preservarecicla/gestaorota/service/GestaoServiceImpl.java</file>
+            <file>file:/C:/pessoal/docs/atlanteam/projetos/preservarecicla/controleOleo/GestaoRotas/src/br/com/preservarecicla/gestaorota/model/vo/RelatorioReciboVo.java</file>
+            <file>file:/C:/pessoal/docs/atlanteam/projetos/preservarecicla/controleOleo/GestaoRotas/src/br/com/preservarecicla/gestaorota/layout/util/PreencheCombos.java</file>
+            <file>file:/C:/pessoal/docs/atlanteam/projetos/preservarecicla/controleOleo/GestaoRotas/src/br/com/preservarecicla/gestaorota/model/Rota.java</file>
+        </group>
+    </open-files>
+</project-private>
