@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="listaRotas" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="842" leftMargin="0" rightMargin="0" topMargin="20" bottomMargin="20" uuid="ee83f081-1b02-4070-b365-5a943bfcb2b5">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="14"/>
+	<field name="nomeCliente" class="java.lang.String"/>
+	<field name="enderecoCliente" class="java.lang.String"/>
+	<field name="dataPagamento" class="java.lang.String"/>
+	<field name="qtdLitros" class="java.lang.Integer"/>
+	<field name="valorLitro" class="java.lang.Double"/>
+	<field name="valorTotalRecebido" class="java.math.BigDecimal"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="142">
+			<textField pattern="dd MMMMM yyyy">
+				<reportElement x="692" y="41" width="139" height="34" uuid="9dd09878-855c-41e0-bda5-f56ee57bc52a"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="189" y="41" width="379" height="48" uuid="be73e794-cc18-456d-9ce1-9f750fa3c9d1"/>
+				<textElement textAlignment="Center">
+					<font size="20"/>
+				</textElement>
+				<text><![CDATA[Comprovante de destinação de resíduos]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="409" splitType="Stretch">
+			<staticText>
+				<reportElement x="13" y="10" width="43" height="20" uuid="dd937a37-5b27-4d4a-9f4b-3d0177d8210c"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[EU,]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="69" y="10" width="231" height="20" uuid="66c49603-f684-49e1-b7d2-35adb68889eb"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{nomeCliente}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="300" y="10" width="104" height="20" uuid="8f42c8e6-b3e4-47d4-a920-5cee07d848a6"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[sediado na rua,]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="404" y="10" width="438" height="20" uuid="25445a1a-b1da-410e-9eed-b289db2e8025"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{enderecoCliente}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="13" y="30" width="176" height="20" uuid="046c6169-fe71-4708-8dc7-46f7628099e8"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[declaro que destinei no dia,]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="189" y="30" width="95" height="20" uuid="cd49b06d-e7ae-4624-8a3f-6b0aa7848055"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{dataPagamento}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="284" y="30" width="68" height="20" uuid="5bb4ef44-743b-441e-aef6-70b158b7644b"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{qtdLitros}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="352" y="30" width="437" height="20" uuid="561844da-caea-41ba-9e25-78f6963d5a81"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[litros do passivo ambiental, óleo usado, à preserva reciclagem]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="50" width="829" height="20" uuid="86bc29cb-d2a7-4e21-96eb-e9045932f4d3"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[CNPJ 13.153.659/0001-20, Rua Luiz Monteiro 20, Bairro Moinho Velho, Cotia - SP, que destina corretamente conforme lei numero]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="70" width="339" height="20" uuid="ba239a1f-e5f5-4d45-a7b9-c08ac6073054"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[1670/2011 e certificação da CETESB: 7200046]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="109" width="159" height="20" uuid="070befd1-a545-48f5-9a09-fbabe1aadfa0"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Valor Recebido por litro]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="172" y="109" width="100" height="20" uuid="14e7d8b5-29c6-4c1c-a8c8-b6a487a2d7e9"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{valorLitro}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="13" y="149" width="104" height="20" uuid="9796a936-053f-442a-b47d-e464baa3c0bf"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Valor Recebido:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="117" y="149" width="129" height="20" uuid="2452dd25-45a5-45bc-a5da-045d0457e0fc"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{valorTotalRecebido}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="56" y="255" width="731" height="1" uuid="6e1be521-4e52-4cad-8713-4d1e0614f758"/>
+			</line>
+			<staticText>
+				<reportElement x="189" y="296" width="371" height="33" uuid="110869a5-1830-413d-8449-393b9340bf55"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Preserva - Reciclagem de óleos Vegetais  - LTDA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="189" y="361" width="600" height="33" uuid="85129d54-1229-40e2-ae49-deefa50299b0"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Fone: 11 - 4702 - 04313 Email: adm@preservarecicla.com.br  www.preservarecicla.com.br]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>
